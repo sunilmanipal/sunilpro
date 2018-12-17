@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
+  <test name="Sample test(failed)">
+    <classes>
+      <class name="com.training.regression.tests.LoginDBTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDBTest"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.regression.tests.LoginDBTest -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
